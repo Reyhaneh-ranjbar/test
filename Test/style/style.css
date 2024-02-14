@@ -90,7 +90,6 @@ body{
 .form1{
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
             padding-right: 200px;
         }
 .icon{
@@ -98,10 +97,6 @@ body{
     color: rgb(42, 143, 88);
 }
 
-
-@media only screen and (min-width: 768px) {
-  .example {background: rgb(120, 120, 122);}
-} 
 
 .im{
     width: 50%;
@@ -117,3 +112,14 @@ footer{
   border-radius: 1px;
   margin: 15px;
 }
+
+@media (max-width: 800px){
+.flex-container{
+flex-direction: column;
+}
+}
+@media (max-width: 800px){
+    footer{
+    flex-direction: column;
+    }
+    }
