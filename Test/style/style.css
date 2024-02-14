@@ -87,6 +87,12 @@ body{
       margin: 10px;
   }
 
+.form1{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding-right: 200px;
+        }
 .icon{
     font-size: x-large;
     color: rgb(42, 143, 88);
